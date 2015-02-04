@@ -1,6 +1,6 @@
 {
   "name": "nwv",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Symlink creator to avoid problems where your node/bower directories become too nested for Windows to handle due to the file path character limit.",
   "author": "Joe Ipson",
   "license": "MIT",
@@ -9,5 +9,8 @@
   	"url": "https://github.com/m0ngr31/node-windows-vagrant.git"
   },
   "os" : [ "linux" ],
-  "preferGlobal": true
+  "preferGlobal": true,
+  "bin": {
+  	"nwv": "node-windows-vagrant.sh"
+  }
 }
