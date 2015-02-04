@@ -7,7 +7,7 @@ You can see more about this issue [here](https://github.com/joyent/node/issues/6
 ## Installation ##
 Use NPM to install the package:
 
-    sudo npm -g nwv
+    sudo npm -g install nwv
 You'll need the global flag so you can use it on all of your projects.
 
 ## Usage ##
